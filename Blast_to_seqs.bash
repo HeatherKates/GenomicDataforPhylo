@@ -1,8 +1,9 @@
 #!/bin/bash
 ####################
-#This script extracts a set of target loci (in a fasta file) from a set of assembled genomes (in a dir). The output is one file per genome that contains all target loci,
-#named as >Genome_target_locus_genome_scaffold_info. There may be more than one sequence per genome x locus if a locus is not single copy in that genome. default blast search options are used
-#and should be changed as needed.
+#This script extracts a set of target loci (in a fasta file Queries.fasta) from a set of assembled genomes (in a dir called Genomes/).
+#The output is one file per genome that contains all target loci, named as >Genome_target_locus_genome_scaffold_info. 
+#There may be more than one sequence per genome x locus if a locus is not single copy in that genome. default blast search options 
+#are used and should be changed as needed.
 ####################
 #load modules
 module load ncbi_blast/2.9.0
